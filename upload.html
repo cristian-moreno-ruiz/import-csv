@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <title>Upload CSV to localhost:3000</title>
+</head>
+<body>
+<form action="http://localhost:3000/import-csv" enctype="multipart/form-data" method="post">
+    <input type="file" name="file" value="Select Files" multiple><br><br>
+    Provider: <input type="form" name="provider" multiple><br><br><br>
+    <input type="submit" value="Upload">
+</form>
+</body>
+</html>

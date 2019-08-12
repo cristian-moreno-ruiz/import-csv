@@ -1,0 +1,3 @@
+{
+    "columns": ["uuid", "vin", "make", "model", "mileage", "year", "price", "zip_code", "create_date", "update_date", "country", "color"]
+}
