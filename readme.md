@@ -1,12 +1,12 @@
-# IMPORT CSV FILE
+# Import CSV file
 
 This app exposes a POST route to import a csv file with following parameters:
 file: file to be imported
 provider: String 
 
-## HOW IT WORKS
-1. run 'npm install' to install dependencies
-2. run 'npm start' and server will start listenning at localhost:3000. The mongodb endpoint will be displayed in the console
+## Get Started
+1. run `npm install` to install dependencies
+2. run `npm start` and server will start listenning at localhost:3000. The mongodb endpoint will be displayed in the console
 3. upload.html can be used to send the files to the API
 4. Some example csv files can be found in 'test_files' directory
 
@@ -15,7 +15,7 @@ Note: There are three configuration files for providers:
 - 'ford, adds some columns at the end
 - 'nissan' removes one column and adds another one
 
-## PROJECT STRUCTURE
+## Project Structure
 
 ### server.js
 Entry point of the project containing the code to create mongodb server in memory, initialize mongodb client and start express server using multer middleware to process file uploads.
